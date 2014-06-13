@@ -178,7 +178,7 @@ package com.element.oimo.physics.dynamics {
 		public function World(stepPerSecond:Number = 60) {
 			timeStep = 1 / stepPerSecond;
 			iteration = 8;
-			gravity = new Vec3(0, -9.80665, 0);
+			gravity = new Vec3(0, 9.80665, 0);
 			performance = new Performance();
 			broadPhase = new SweepAndPruneBroadPhase();
 			// broadPhase = new BruteForceBroadPhase();
