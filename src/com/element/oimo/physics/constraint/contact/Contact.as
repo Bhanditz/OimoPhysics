@@ -23,7 +23,6 @@ package com.element.oimo.physics.constraint.contact {
 	import com.element.oimo.physics.collision.narrow.ContactInfo;
 	import com.element.oimo.physics.collision.shape.Shape;
 	import com.element.oimo.physics.constraint.Constraint;
-	import com.element.oimo.physics.dynamics.RigidBody;
 	/**
 	 * 二つの剛体間の接触拘束を扱うクラスです。
 	 * @author saharan

@@ -19,12 +19,10 @@
 package com.element.oimo.glmini {
 	import com.adobe.utils.AGALMiniAssembler;
 	import com.element.oimo.math.Mat44;
-	import com.element.oimo.math.Vec3;
 	import flash.display3D.Context3D;
 	import flash.display3D.IndexBuffer3D;
 	import flash.display3D.Program3D;
 	import flash.display3D.VertexBuffer3D;
-	import flash.utils.ByteArray;
 	
 	public class OimoGLMini {
 		private static const VERTEX_POISITION_INDEX:uint = 0;

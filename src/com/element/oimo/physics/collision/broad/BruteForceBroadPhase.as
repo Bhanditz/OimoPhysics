@@ -1,8 +1,6 @@
 package com.element.oimo.physics.collision.broad {
 	import com.element.oimo.physics.collision.shape.Shape;
-	import com.element.oimo.physics.dynamics.RigidBody;
 	import com.element.oimo.physics.dynamics.World;
-	import flash.utils.getTimer;
 	/**
 	 * 総当りアルゴリズムを使用して広域衝突判定を行うクラスです。
 	 * <strong>このアルゴリズムは速度検証以外には非推奨です。</strong>

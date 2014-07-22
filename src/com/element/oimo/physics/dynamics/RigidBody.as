@@ -17,13 +17,11 @@
  * SOFTWARE.
  */
 package com.element.oimo.physics.dynamics {
-	import com.element.oimo.physics.collision.shape.Shape;
 	import com.element.oimo.math.Mat33;
 	import com.element.oimo.math.Quat;
 	import com.element.oimo.math.Vec3;
-	import com.element.oimo.physics.constraint.Constraint;
+	import com.element.oimo.physics.collision.shape.Shape;
 	import com.element.oimo.physics.constraint.contact.ContactConnection;
-	import com.element.oimo.physics.constraint.joint.Joint;
 	import com.element.oimo.physics.constraint.joint.JointConnection;
 	/**
 	 * 剛体のクラスです。

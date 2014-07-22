@@ -20,7 +20,6 @@ package com.element.oimo.physics.collision.narrow {
 	import com.element.oimo.math.Vec3;
 	import com.element.oimo.physics.collision.shape.BoxShape;
 	import com.element.oimo.physics.collision.shape.Shape;
-	import com.element.oimo.physics.collision.shape.SphereShape;
 	/**
 	 * 箱同士の詳細な衝突判定を行います。
 	 * detectCollision 関数の引数に指定する形状は、

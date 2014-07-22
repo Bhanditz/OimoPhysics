@@ -17,7 +17,6 @@
  * SOFTWARE.
  */
 package com.element.oimo.physics.constraint.joint {
-	import com.element.oimo.math.Mat33;
 	import com.element.oimo.math.Vec3;
 	/**
 	 * ジョイントの初期化時に使われる共通設定のクラスです。

@@ -19,8 +19,6 @@
 package com.element.oimo.physics.constraint.joint {
 	import com.element.oimo.math.Vec3;
 	import com.element.oimo.physics.constraint.Constraint;
-	import com.element.oimo.physics.dynamics.RigidBody;
-	import com.element.oimo.physics.dynamics.World;
 	/**
 	 * 剛体同士を繋ぐジョイントのクラスです。
 	 * @author saharan

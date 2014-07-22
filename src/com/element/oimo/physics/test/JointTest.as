@@ -21,29 +21,22 @@ package com.element.oimo.physics.test {
 	import com.element.oimo.physics.collision.shape.Shape;
 	import com.element.oimo.physics.collision.shape.ShapeConfig;
 	import com.element.oimo.physics.collision.shape.SphereShape;
-	import com.element.oimo.physics.constraint.contact.Contact;
 	import com.element.oimo.physics.constraint.joint.BallJoint;
-	import com.element.oimo.physics.constraint.joint.DistanceJoint;
 	import com.element.oimo.physics.constraint.joint.Hinge2Joint;
 	import com.element.oimo.physics.constraint.joint.HingeJoint;
 	import com.element.oimo.physics.constraint.joint.Joint;
 	import com.element.oimo.physics.constraint.joint.JointConfig;
 	import com.element.oimo.physics.dynamics.RigidBody;
 	import com.element.oimo.physics.dynamics.World;
-	import com.element.oimo.math.Mat33;
-	import com.element.oimo.math.Quat;
-	import com.element.oimo.math.Vec3;
-	import com.element.oimo.physics.OimoPhysics;
 	import com.element.oimo.physics.util.DebugDraw;
 	import flash.display.Sprite;
 	import flash.display.Stage3D;
 	import flash.events.Event;
 	import flash.events.KeyboardEvent;
-	import flash.geom.Matrix3D;
 	import flash.text.TextField;
 	import flash.text.TextFormat;
 	import flash.ui.Keyboard;
-	import net.hires.debug.Stats;
+	import plugin.utils.Stats;
 	/**
 	 * 動作テスト
 	 * @author saharan
@@ -86,7 +79,6 @@ package com.element.oimo.physics.test {
 			tf.width = 400;
 			tf.height = 400;
 			addChild(tf);
-			trace(OimoPhysics.DESCRIPTION);
 			initWorld();
 			fps = 0;
 			

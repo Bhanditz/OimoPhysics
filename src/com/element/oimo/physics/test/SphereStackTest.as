@@ -23,17 +23,13 @@ package com.element.oimo.physics.test {
 	import com.element.oimo.physics.collision.shape.SphereShape;
 	import com.element.oimo.physics.dynamics.RigidBody;
 	import com.element.oimo.physics.dynamics.World;
-	import com.element.oimo.math.Mat33;
-	import com.element.oimo.math.Quat;
-	import com.element.oimo.math.Vec3;
-	import com.element.oimo.physics.OimoPhysics;
 	import com.element.oimo.physics.util.DebugDraw;
 	import flash.display.Sprite;
 	import flash.display.Stage3D;
 	import flash.events.Event;
 	import flash.text.TextField;
 	import flash.text.TextFormat;
-	import net.hires.debug.Stats;
+	import plugin.utils.Stats;
 	/**
 	 * 動作テスト
 	 * @author saharan
@@ -67,7 +63,6 @@ package com.element.oimo.physics.test {
 			tf.width = 400;
 			tf.height = 400;
 			addChild(tf);
-			trace(OimoPhysics.DESCRIPTION);
 			world = new World();
 			renderer = new DebugDraw(640, 480);
 			renderer.setWorld(world);

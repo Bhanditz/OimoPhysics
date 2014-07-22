@@ -1,5 +1,4 @@
 package com.element.oimo.physics.collision.narrow {
-	import com.element.oimo.math.Vec3;
 	import com.element.oimo.physics.collision.shape.Shape;
 	/**
 	 * 衝突判定の結果を格納するクラスです。

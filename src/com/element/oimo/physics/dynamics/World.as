@@ -18,21 +18,20 @@
  */
 package com.element.oimo.physics.dynamics {
 	import com.element.oimo.math.Quat;
+	import com.element.oimo.math.Vec3;
 	import com.element.oimo.physics.collision.broad.BroadPhase;
-	import com.element.oimo.physics.collision.broad.BruteForceBroadPhase;
 	import com.element.oimo.physics.collision.broad.Pair;
 	import com.element.oimo.physics.collision.broad.SweepAndPruneBroadPhase;
 	import com.element.oimo.physics.collision.narrow.BoxBoxCollisionDetector;
 	import com.element.oimo.physics.collision.narrow.BoxCylinderCollisionDetector;
+	import com.element.oimo.physics.collision.narrow.CollisionDetector;
 	import com.element.oimo.physics.collision.narrow.CollisionResult;
 	import com.element.oimo.physics.collision.narrow.ContactInfo;
-	import com.element.oimo.physics.collision.narrow.CollisionDetector;
 	import com.element.oimo.physics.collision.narrow.CylinderCylinderCollisionDetector;
 	import com.element.oimo.physics.collision.narrow.SphereBoxCollisionDetector;
 	import com.element.oimo.physics.collision.narrow.SphereCylinderCollisionDetector;
 	import com.element.oimo.physics.collision.narrow.SphereSphereCollisionDetector;
 	import com.element.oimo.physics.collision.shape.Shape;
-	import com.element.oimo.math.Vec3;
 	import com.element.oimo.physics.constraint.Constraint;
 	import com.element.oimo.physics.constraint.contact.Contact;
 	import com.element.oimo.physics.constraint.contact.ContactConnection;

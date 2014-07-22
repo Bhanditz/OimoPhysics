@@ -17,12 +17,11 @@
  * SOFTWARE.
  */
 package com.element.oimo.physics.collision.shape {
-	import com.element.oimo.physics.collision.broad.Proxy;
-	import com.element.oimo.physics.constraint.contact.Contact;
-	import com.element.oimo.physics.constraint.contact.ContactConnection;
-	import com.element.oimo.physics.dynamics.RigidBody;
 	import com.element.oimo.math.Mat33;
 	import com.element.oimo.math.Vec3;
+	import com.element.oimo.physics.collision.broad.Proxy;
+	import com.element.oimo.physics.constraint.contact.ContactConnection;
+	import com.element.oimo.physics.dynamics.RigidBody;
 	/**
 	 * 剛体に含まれる衝突処理用の形状のクラスです。
 	 * @author saharan

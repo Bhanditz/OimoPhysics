@@ -21,7 +21,7 @@ package com.element.oimo.physics {
 	 * OimoPhysics の情報のクラスです。
 	 * @author saharan
 	 */
-	public final class OimoPhysics {
+	public class OimoPhysics {
 		/**
 		 * OimoPhysics のバージョンです。
 		 */

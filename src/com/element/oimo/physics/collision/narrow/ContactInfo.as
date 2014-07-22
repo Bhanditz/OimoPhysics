@@ -19,7 +19,6 @@
 package com.element.oimo.physics.collision.narrow {
 	import com.element.oimo.math.Vec3;
 	import com.element.oimo.physics.collision.shape.Shape;
-	import com.element.oimo.physics.dynamics.RigidBody;
 	/**
 	 * 剛体同士の接触情報を保持するクラスです。
 	 * @author saharan
